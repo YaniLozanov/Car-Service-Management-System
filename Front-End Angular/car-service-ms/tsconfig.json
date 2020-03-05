@@ -17,7 +17,11 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@layout": ["src/app/core/layout/index"],
+      "@layout/*": ["src/app/core/layout*"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

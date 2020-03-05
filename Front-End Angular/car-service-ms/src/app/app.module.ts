@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgxPopper } from 'angular-popper';
+import {CoreModule} from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { NgxPopper } from 'angular-popper';
   ],
   imports: [
     BrowserModule,
-    NgxPopper
+    NgxPopper,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

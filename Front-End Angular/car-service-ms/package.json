@@ -25,7 +25,8 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "popper.js": "^1.14.0"
+    "popper.js": "^1.14.0",
+    "@layout": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
