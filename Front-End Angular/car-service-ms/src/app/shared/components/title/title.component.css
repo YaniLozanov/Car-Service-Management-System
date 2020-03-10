@@ -1,0 +1,28 @@
+.resize{
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  div.resize {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  div.resize {
+    font-size: 50px !important;
+  }
+}
+
+@media screen and (max-width:800px) {
+  div.resize {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  div.resize {
+    font-size: 20px !important;
+  }
+}
