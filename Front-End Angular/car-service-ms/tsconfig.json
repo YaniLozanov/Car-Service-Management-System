@@ -19,8 +19,14 @@
       "dom"
     ],
     "paths": {
+      "@app": ["src/app/index"],
+      "@app/*": ["src/app/*"],
+
       "@layout": ["src/app/core/layout/index"],
-      "@layout/*": ["src/app/core/layout*"]
+      "@layout/*": ["src/app/core/layout*"],
+
+      "@pages": ["src/app/modules/content/pages/index"],
+      "@pages/*": ["src/app/modules/content/pages*"]
     }
   },
   "angularCompilerOptions": {
