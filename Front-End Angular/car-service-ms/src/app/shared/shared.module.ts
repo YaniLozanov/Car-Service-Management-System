@@ -4,15 +4,21 @@ import {CarouselModule} from 'angular-bootstrap-md';
 import {
   CardComponent,
   TitleComponent,
-  CarouselComponent
+  ButtonComponent,
+  CarouselComponent,
+  SubtitleComponent,
+  RegisterFormComponent
 } from '@components';
-
 
 @NgModule({
   declarations: [
     CardComponent,
     TitleComponent,
+    ButtonComponent,
     CarouselComponent,
+    SubtitleComponent,
+    RegisterFormComponent,
+    ButtonComponent,
   ],
   imports: [
     CommonModule,
@@ -21,7 +27,10 @@ import {
   exports: [
     CardComponent,
     TitleComponent,
-    CarouselComponent
+    ButtonComponent,
+    CarouselComponent,
+    SubtitleComponent,
+    RegisterFormComponent
   ]
 })
 export class SharedModule { }

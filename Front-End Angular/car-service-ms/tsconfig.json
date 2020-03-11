@@ -32,7 +32,13 @@
       "@pages/*": ["src/app/modules/content/pages*"],
 
       "@components": ["src/app/shared/components/index"],
-      "@components/*": ["src/app/shared/components*"]
+      "@components/*": ["src/app/shared/components*"],
+
+      "@modules": ["src/app/modules/index"],
+      "@modules/*": ["src/app/modules*"],
+
+      "@content": ["src/app/modules/content/index"],
+      "@content/*": ["src/app/modules/content/*"]
     }
   },
   "angularCompilerOptions": {

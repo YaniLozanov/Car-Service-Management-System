@@ -1,3 +1,4 @@
 body{
-  background-image: url("./assets/images/car-service-bg.jpg");
+  background-image: url("./assets/images/car-service-bg.png");
+  background-size: 100%;
 }

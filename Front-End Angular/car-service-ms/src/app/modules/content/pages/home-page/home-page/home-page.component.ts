@@ -9,9 +9,9 @@ import {ImageModel} from '@models';
 })
 export class HomePageComponent implements OnInit {
   images: ImageModel[] = [
-    {url: './assets/images/car-1.jpg'},
-    {url: './assets/images/car-3.jpg'},
-
+    {url: './assets/images/first-image.jpg'},
+    {url: './assets/images/second-image.jpg'},
+    {url: './assets/images/third-image.jpg'}
   ];
 
 

@@ -1,5 +1,6 @@
 .resize{
   text-align: center;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 400px) {
@@ -10,18 +11,18 @@
 
 @media screen and (min-width: 601px) {
   div.resize {
-    font-size: 50px !important;
+    font-size: 30px !important;
   }
 }
 
 @media screen and (max-width:800px) {
   div.resize {
-    font-size: 40px !important;
+    font-size: 20px !important;
   }
 }
 
 @media screen and (max-width:500px) {
   div.resize {
-    font-size: 20px !important;
+    font-size: 10px !important;
   }
 }

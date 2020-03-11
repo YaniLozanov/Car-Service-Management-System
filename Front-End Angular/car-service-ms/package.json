@@ -31,7 +31,8 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "angular-bootstrap-md": "latest"
+    "angular-bootstrap-md": "latest",
+    "@content/content.module": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
