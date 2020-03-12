@@ -8,12 +8,12 @@ button{
   transition: background-color 0.5s, box-shadow 0.7s;
   color: white;
   background-color: green;
-  box-shadow: 0 0 2px 5px rgba(31, 255, 0, 0.2);
+  box-shadow: 0 0 5px 4px rgba(31, 255, 0, 0.2);
 }
 
 .invalid:hover{
   transition: background-color 0.5s, box-shadow 0.7s;
   color: white;
-  background-color: #801604;
-  box-shadow: 0 0 2px 5px rgba(216, 0, 13, 0.59);
+  background-color: #c41604;
+  box-shadow: 0 0 2px 3px rgba(216, 0, 13, 0.59);
 }

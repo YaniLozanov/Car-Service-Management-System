@@ -1,24 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {RouterModule, Routes} from '@angular/router';
+import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 
-
-const routes: Routes = [
+const ROUTES: Routes = [
   {
     path: '',
-    pathMatch:"full",
-    redirectTo: 'home'},
+    redirectTo: '',
+    pathMatch: 'full'
+  },
   {
-    path: 'register',
-    loadChildren: () => import('@content/content.module').then(m => m.ContentModule)
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full'
   }
 ];
+
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(ROUTES, {enableTracing: false, preloadingStrategy: PreloadAllModules})
   ],
   exports: [RouterModule]
 })

@@ -7,8 +7,10 @@ import {
   ButtonComponent,
   CarouselComponent,
   SubtitleComponent,
+  LoginFormComponent,
   RegisterFormComponent
 } from '@components';
+
 
 @NgModule({
   declarations: [
@@ -17,20 +19,22 @@ import {
     ButtonComponent,
     CarouselComponent,
     SubtitleComponent,
-    RegisterFormComponent,
     ButtonComponent,
+    LoginFormComponent,
+    RegisterFormComponent
   ],
   imports: [
     CommonModule,
     CarouselModule,
   ],
-  exports: [
-    CardComponent,
-    TitleComponent,
-    ButtonComponent,
-    CarouselComponent,
-    SubtitleComponent,
-    RegisterFormComponent
-  ]
+    exports: [
+      CardComponent,
+      TitleComponent,
+      ButtonComponent,
+      CarouselComponent,
+      SubtitleComponent,
+      LoginFormComponent,
+      RegisterFormComponent,
+    ]
 })
 export class SharedModule { }

@@ -3,15 +3,18 @@ import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {RegisterPageComponent} from '@pages';
 
-const routes: Routes = [
-  {path: 'register', component: RegisterPageComponent}
+const ROUTES: Routes = [
+  {
+    path: 'register',
+    component: RegisterPageComponent
+  }
 ];
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(ROUTES)
   ],
   exports: [
     RouterModule
